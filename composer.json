@@ -31,7 +31,7 @@
         "typo3/cms-setup": "12.4.20",
         "typo3/cms-tstemplate": "12.4.20",
         "typo3/cms-viewpage": "12.4.20",
-		"t3/dce": "3.2.0",
+		"t3/dce": "3.2.7",
         "mask/mask": "9.0.0"
     },
     "config": {
