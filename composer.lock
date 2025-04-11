@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "68de0be9635a02b7c485b2070f1dffa7",
+    "content-hash": "9a9df0aa0eb6b3ec69601a36fb317074",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1302,16 +1302,16 @@
         },
         {
             "name": "mask/mask",
-            "version": "v9.0.0",
+            "version": "v9.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gernott/mask.git",
-                "reference": "b961a49680a88b8628e40b8db9911c37d0a7e127"
+                "reference": "fe865566edf0e81af0716cb82f9f3e72571041ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gernott/mask/zipball/b961a49680a88b8628e40b8db9911c37d0a7e127",
-                "reference": "b961a49680a88b8628e40b8db9911c37d0a7e127",
+                "url": "https://api.github.com/repos/Gernott/mask/zipball/fe865566edf0e81af0716cb82f9f3e72571041ae",
+                "reference": "fe865566edf0e81af0716cb82f9f3e72571041ae",
                 "shasum": ""
             },
             "require": {
@@ -1394,7 +1394,7 @@
                     "type": "WEBprofil - Gernot Ploiner e.U. (Founder)"
                 }
             ],
-            "time": "2024-11-13T13:49:20+00:00"
+            "time": "2025-02-12T16:18:46+00:00"
         },
         {
             "name": "masterminds/html5",
