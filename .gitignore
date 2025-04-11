@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+nbproject
+/var
+!/var/labels
+/node_modules
+/vendor
+/public
+!/public/humans.txt
+!/public/robots.txt

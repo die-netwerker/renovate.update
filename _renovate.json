@@ -1,0 +1,51 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+      "config:recommended",
+      ":disableMajorUpdates"
+  ],
+  "enabledManagers": ["composer"],
+  "rangeStrategy": "bump",
+  "automerge": true,
+  "automergeType": "pr",
+  "dependencyDashboard": true,
+
+  "commitMessagePrefix": "[RENOVATE] ",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
+
+  "ignorePaths": ["packages/**"],
+
+  "packageRules": [
+      {
+          "matchPackageNames": ["typo3/*"],
+          "allowedVersions": "^12.4",
+          "groupName": "TYPO3 Core",
+          "automerge": true,
+          "automergeType": "pr"
+      },
+      {
+          "matchPackageNames": [
+              "clickstorm/cs-seo"
+          ],
+          "matchUpdateTypes": ["minor", "patch"],
+          "groupName": "Enabled Extension Updates",
+          "automerge": true,
+          "automergeType": "pr"
+      },
+      {
+          "matchPackageNames": [
+              "o-ba/username"
+          ],
+          "enabled": false
+      },
+      {
+        "matchUpdateTypes": ["lockFileMaintenance"],
+        "automerge": true,
+        "automergeType": "branch"
+      }
+  ],
+  "composer": {
+      "fileMatch": ["^composer\\.json$"]
+  }
+}
