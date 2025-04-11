@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "68de0be9635a02b7c485b2070f1dffa7",
+    "content-hash": "daff1da4ee4bc71227d0b26134fc7ef5",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -5109,16 +5109,16 @@
         },
         {
             "name": "t3/dce",
-            "version": "3.2.0",
+            "version": "3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/a-r-m-i-n/dce.git",
-                "reference": "9d9be11d22965e589b909f333e5b7b1c7ced6499"
+                "reference": "5582cc029b7c29208bd70fefe554589eeef26521"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/a-r-m-i-n/dce/zipball/9d9be11d22965e589b909f333e5b7b1c7ced6499",
-                "reference": "9d9be11d22965e589b909f333e5b7b1c7ced6499",
+                "url": "https://api.github.com/repos/a-r-m-i-n/dce/zipball/5582cc029b7c29208bd70fefe554589eeef26521",
+                "reference": "5582cc029b7c29208bd70fefe554589eeef26521",
                 "shasum": ""
             },
             "require": {
@@ -5129,6 +5129,18 @@
             },
             "replace": {
                 "arminvieweg/dce": "*"
+            },
+            "require-dev": {
+                "armin/editorconfig-cli": "^2.0",
+                "friendsofphp/php-cs-fixer": "^3.69",
+                "helmich/typo3-typoscript-lint": "^3.3",
+                "phpstan/phpstan": "^2.1",
+                "phpstan/phpstan-doctrine": "^2.0",
+                "saschaegerer/phpstan-typo3": "^2.0",
+                "typo3/cms-backend": "^12.4 || ^13",
+                "typo3/cms-install": "^12.4 || ^13",
+                "typo3/cms-linkvalidator": "^12.4 || ^13",
+                "typo3/cms-seo": "^12.4 || ^13"
             },
             "suggest": {
                 "b13/container": "Brings clean container functionality to TYPO3 CMS, supported by DCE."
@@ -5175,7 +5187,7 @@
                 "issues": "https://github.com/a-r-m-i-n/dce/issues",
                 "source": "https://github.com/a-r-m-i-n/dce"
             },
-            "time": "2024-08-05T16:12:00+00:00"
+            "time": "2025-04-09T10:48:01+00:00"
         },
         {
             "name": "typo3/class-alias-loader",
